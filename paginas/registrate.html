@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,user-scalable=no, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <title>Evaluacíon Final Integradora </title>
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/estilo-registrate.css">
+    <script src="../js/validar.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <h1 class="logo">Lambda</h1>
+            <span class="icon-menu" id="btn-menu"></span>
+            <nav class="nav" id="nav">
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link"href="../index.html">Inicio</a></li>
+                    <li class="menu__item"><a class="menu__link"href="series.html">Series</a></li>
+                    <li class="menu__item"><a class="menu__link"href="juegos.html">Juegos</a></li>
+                    <li class="menu__item"><a class="menu__link"href="animes.html">Animes</a></li>
+                    <li class="menu__item"><a class="menu__link select"href="">Registrate</a></li>
+                    <li class="menu__item"><a class="menu__link" href="galeria.html">Galeria</a></li>
+                </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+     <h2>Formulario de registro</h2>
+     <form action="#"method="post" class="form-register"onsubmit="return validar();">
+         <h2 class="form__titulo">CREA UNA CUENTA</h2>
+         <div class="contenedor-inputs">
+             <input type="text" id="nombre"name="nombre" placeholder="Nombre"class="input-48">
+             <input type="text"id="apellido"name="apellido"placeholder="Apellido"class="input-48">
+             <input type="email"id="correo"name="correo"placeholder="Correo electronico"class="input-100">
+             <input type="text"id="usuario"name="usuario"placeholder="Usuario"class="input-48">
+             <input type="password" id="clave"name="clave"placeholder="Contraseña"class="input-48">
+             <input type="text"id="telefono"name="telefono"placeholder="Telefono" class="input-100">
+             <input type="submit" value="Registrar"class="btn-enviar">
+             <p class="form__link">¿Ya tienes una cuenta?<a href="#">Ingresa aquí</a></p>            
+         </div>
+     </form>
+    <footer class="footer">
+        <div class="social">
+            <a href="https://www.facebook.com"class="icon-facebook"></a>
+            <a href="https://www.instagram.com"class="icon-instagram"></a>
+            <a href="https://www.twitter.com"class="icon-twitter"></a>
+        </div>
+        <p class="copy">&copy;LAMBDA 2020 - Todos los derechos reservados</p>
+    </footer>
+    <script src="../js/menu.js"></script>
+</body>
+</html>
